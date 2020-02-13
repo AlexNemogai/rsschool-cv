@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Brief Resume</h1>
+    <img src="1.png" alt="fotoMoto" width="200">
+        <p><b>1. First Name, Last Name:</b> Alexandr Nemogai</p>
+        <p><b>2. Contact info:</b> +375-29-324-26-83 Vel, Viber, Telegram; sanjamogai -- Instagram</p>
+        <p><b>3. Summary:</b> My goal is to become a programmer. Good training and a friendly atmosphere are important to me! I want  to get knowledge and pass your tests.</p>
+        <p><b>4. Skills:</b> a little C, C++, C#, assember from the university and a little JS from the courses</p>
+        <p><b>5. Code examples:</b> some task a year ago</p>
+            <pre>
+
+  &lt!DOCTYPE html&gt<br>
+  &lthtml&gt<br>
+      &lthead&gt<br>
+          &ltmeta charset="utf-8"&gt<br>
+          &lttitle&gtHomeWork3&lt/title&gt<br>
+      &lt/head&gt<br>
+      &ltbody&gt<br>
+        &ltscript type="text/javascript"&gt<br>
+        function task1(){<br>
+
+        var loginAdmin = 'Админ',<br>
+            passw0rdAdmin = 'Черный властелин',<br>
+            someLogin,<br>
+            someAttemptPassw0rd;<br>
+
+            someLogin = prompt('Enter login','дай угадаю, Вася?');<br>
+
+            if( someLogin === loginAdmin){<br>
+
+            someAttemptPassw0rd = prompt('Enter passw0rd, pozhaluista','Ломай, Уася!');<br>
+
+            if(someAttemptPassw0rd === passw0rdAdmin){<br>
+                alert('Добро пожаловаться!');<br>
+                } else if(someAttemptPassw0rd != passw0rdAdmin && someAttemptPassw0rd != null){<br>
+                alert('Слущай, еще пробуй потом, Уася!');<br>
+                } else {<br>
+                    alert('Уходи, не плачь=)');<br>
+                }<br>
+
+            } else if(someLogin !=loginAdmin && someLogin != null){<br>
+                alert('Ты кто такой? Давай, до свиданья, слушай!');<br>
+            } else {<br>
+                alert('Уходи, не плачь=)');<br>
+                }<br>
+            }<br>
+
+            function task2(){<br>
+                var message,<br>
+                login = prompt('Enter login','(^_^)');<br>
+
+                login === 'Вася' ? message = 'Привет' :<br>
+                login === 'Директор' ? message = 'Здравствуйте' :<br>
+                login === '' ? message = 'Нет логина' :<br>
+                message = '';<br>
+                alert(message);<br>
+            }<br>
+
+            function task3(){<br>
+                var evenNumber = 'even numbers from two to ten:';<br>
+                for(var i  = 0; i <= 10; i++){<br>
+                    if(i%2 == 0 && i != 0)<br>
+                    evenNumber += i + ' ';<br>
+                }<br>
+                alert(evenNumber);<br>
+            }<br>
+
+            function task4(){<br>
+                var onlyNumbers = [],<br>
+                someWritingPeople,fff;<br>
+
+                for(i = 0 ;; i++){<br>
+                    someWritingPeople = prompt('Введите число','Пожалуйста,число, не ломайте программу!');<br>
+                    if(someWritingPeople === null || someWritingPeople === '' || someWritingPeople != +someWritingPeople){<br>
+                    alert('Раз не хотите вводить числа, я вынужден сказать вам до свиданья!');<br>
+                    break;<br>
+                    } else {<br>
+                        onlyNumbers [i] = someWritingPeople;<br>
+                    }<br>
+                }<br>
+
+                onlyNumbers.forEach(function(item,i,onlyNumbers){<br>
+                    fff+= item;<br>
+                });<br>
+                alert(fff);<br>
+            }<br>
+
+            var menu = +prompt('Выберите 1 из 4 омашних заданий!','-1-2-3-4-чо');<br>
+            switch(menu){<br>
+                case 1: task1(); break;<br>
+                case 2: task2(); break;<br>
+                case 3: task3(); break;<br>
+                case 4: task4(); break;<br>
+                default: alert('Неправильный выбор, разберитесь в себе=)');<br>
+            }<br>
+
+  &lt/script&gt<br>
+  &lt/body&gt<br>
+  &lt/html&gt<br>
+            </pre>
+        <p><b>6. Experiense:</b> tasks at university and courses</p>
+        <p><b>7. Education:</b> BSUIR, TechMeSkills, HTMLacademy</p>
+        <p><b>8. English:</b> At school. I have an elementary+ level, but I learn English in courses.</p>
+</body>
+</html>
