@@ -1,0 +1,28 @@
+body{
+    max-width:1024px;
+    margin:auto;
+    padding-left: 0px;
+    
+}
+img{
+    border:3px solid black;
+    border-radius: 5px;
+}
+h1{
+    border-bottom: 1px solid gainsboro;
+}
+p{
+    
+    font-style: italic;
+    font-size: 18px;
+    font-weight: normal;
+}
+b{
+    font-style: normal;
+}
+pre{
+    background-color:rgb(228, 227, 227);
+    font-size:15px;
+    font-weight: normal;
+    line-height: 0.5;
+}
